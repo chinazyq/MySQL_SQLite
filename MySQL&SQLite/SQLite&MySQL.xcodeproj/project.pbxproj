@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CB200391BAD3F69004CCF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200381BAD3F69004CCF3C /* main.m */; };
+		3CB2003C1BAD3F69004CCF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2003B1BAD3F69004CCF3C /* AppDelegate.m */; };
+		3CB200471BAD3F69004CCF3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200461BAD3F69004CCF3C /* Images.xcassets */; };
+		3CB2004A1BAD3F69004CCF3C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200481BAD3F69004CCF3C /* LaunchScreen.xib */; };
+		3CB200561BAD3F69004CCF3C /* SQLite_MySQLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200551BAD3F69004CCF3C /* SQLite_MySQLTests.m */; };
+		3CB201101BAD400E004CCF3C /* UserInfoDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200621BAD400E004CCF3C /* UserInfoDB.m */; };
+		3CB201111BAD400E004CCF3C /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200651BAD400E004CCF3C /* UserInfo.m */; };
+		3CB201121BAD400E004CCF3C /* BUILD_FLAG in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200671BAD400E004CCF3C /* BUILD_FLAG */; };
+		3CB201131BAD400E004CCF3C /* MysqlCommitException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2006A1BAD400E004CCF3C /* MysqlCommitException.m */; };
+		3CB201141BAD400E004CCF3C /* MysqlException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2006C1BAD400E004CCF3C /* MysqlException.m */; };
+		3CB201151BAD400E004CCF3C /* MysqlRollbackException.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2006E1BAD400E004CCF3C /* MysqlRollbackException.m */; };
+		3CB201161BAD400E004CCF3C /* MysqlConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200711BAD400E004CCF3C /* MysqlConnection.m */; };
+		3CB201171BAD400E004CCF3C /* MysqlDelete.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200741BAD400E004CCF3C /* MysqlDelete.m */; };
+		3CB201181BAD400E004CCF3C /* MysqlFetch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200761BAD400E004CCF3C /* MysqlFetch.m */; };
+		3CB201191BAD400E004CCF3C /* MysqlFetchField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200781BAD400E004CCF3C /* MysqlFetchField.m */; };
+		3CB2011A1BAD400E004CCF3C /* MysqlIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2007A1BAD400E004CCF3C /* MysqlIndex.m */; };
+		3CB2011B1BAD400E004CCF3C /* MysqlInsert.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2007C1BAD400E004CCF3C /* MysqlInsert.m */; };
+		3CB2011C1BAD400E004CCF3C /* MysqlLiteral.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2007E1BAD400E004CCF3C /* MysqlLiteral.m */; };
+		3CB2011D1BAD400E004CCF3C /* MysqlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200801BAD400E004CCF3C /* MysqlManager.m */; };
+		3CB2011E1BAD400E004CCF3C /* MysqlServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200821BAD400E004CCF3C /* MysqlServer.m */; };
+		3CB2011F1BAD400E004CCF3C /* MysqlTruncate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200841BAD400E004CCF3C /* MysqlTruncate.m */; };
+		3CB201201BAD400E004CCF3C /* MysqlUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200861BAD400E004CCF3C /* MysqlUpdate.m */; };
+		3CB201211BAD400E004CCF3C /* notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200871BAD400E004CCF3C /* notes.txt */; };
+		3CB201221BAD400E004CCF3C /* NSString_MysqlEscape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200891BAD400E004CCF3C /* NSString_MysqlEscape.m */; };
+		3CB201231BAD400E004CCF3C /* UserInfoAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2008D1BAD400E004CCF3C /* UserInfoAccess.m */; };
+		3CB201241BAD400E004CCF3C /* zhangyqV1.db in Resources */ = {isa = PBXBuildFile; fileRef = 3CB2008E1BAD400E004CCF3C /* zhangyqV1.db */; };
+		3CB201251BAD400E004CCF3C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200921BAD400E004CCF3C /* Default-568h@2x.png */; };
+		3CB201261BAD400E004CCF3C /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200961BAD400E004CCF3C /* FMDatabase.m */; };
+		3CB201271BAD400E004CCF3C /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200981BAD400E004CCF3C /* FMDatabaseAdditions.m */; };
+		3CB201281BAD400E004CCF3C /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2009A1BAD400E004CCF3C /* FMDatabasePool.m */; };
+		3CB201291BAD400E004CCF3C /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2009C1BAD400E004CCF3C /* FMDatabaseQueue.m */; };
+		3CB2012A1BAD400E004CCF3C /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2009E1BAD400E004CCF3C /* FMResultSet.m */; };
+		3CB2012B1BAD400E004CCF3C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200A21BAD400E004CCF3C /* MASCompositeConstraint.m */; };
+		3CB2012C1BAD400E004CCF3C /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200A51BAD400E004CCF3C /* MASConstraint.m */; };
+		3CB2012D1BAD400E004CCF3C /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200A71BAD400E004CCF3C /* MASConstraintMaker.m */; };
+		3CB2012E1BAD400E004CCF3C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200A91BAD400E004CCF3C /* MASLayoutConstraint.m */; };
+		3CB2012F1BAD400E004CCF3C /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200AD1BAD400E004CCF3C /* MASViewAttribute.m */; };
+		3CB201301BAD400E004CCF3C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200AF1BAD400E004CCF3C /* MASViewConstraint.m */; };
+		3CB201311BAD400E004CCF3C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200B11BAD400E004CCF3C /* NSArray+MASAdditions.m */; };
+		3CB201321BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200B41BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		3CB201331BAD400E004CCF3C /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200B61BAD400E004CCF3C /* View+MASAdditions.m */; };
+		3CB201341BAD400E004CCF3C /* my_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200D31BAD400E004CCF3C /* my_config.h.in */; };
+		3CB201351BAD400E004CCF3C /* mysql.h.pp in Sources */ = {isa = PBXBuildFile; fileRef = 3CB200E91BAD400E004CCF3C /* mysql.h.pp */; };
+		3CB201361BAD400E004CCF3C /* mysql_version.h.in in Resources */ = {isa = PBXBuildFile; fileRef = 3CB200ED1BAD400E004CCF3C /* mysql_version.h.in */; };
+		3CB201371BAD400E004CCF3C /* libmysqlclient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB201011BAD400E004CCF3C /* libmysqlclient.a */; };
+		3CB201381BAD400E004CCF3C /* MysqlUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB201041BAD400E004CCF3C /* MysqlUtil.m */; };
+		3CB201391BAD400E004CCF3C /* SqliteUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB201071BAD400E004CCF3C /* SqliteUtil.m */; };
+		3CB2013A1BAD400E004CCF3C /* MySQLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2010A1BAD400E004CCF3C /* MySQLViewController.m */; };
+		3CB2013B1BAD400E004CCF3C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2010D1BAD400E004CCF3C /* RootViewController.m */; };
+		3CB2013C1BAD400E004CCF3C /* SQLiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2010F1BAD400E004CCF3C /* SQLiteViewController.m */; };
+		3CB201401BAD4124004CCF3C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB2013F1BAD4124004CCF3C /* libsqlite3.0.dylib */; };
+		3CB201421BAD412F004CCF3C /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CB201411BAD412F004CCF3C /* libstdc++.6.0.9.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CB200501BAD3F69004CCF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CB2002B1BAD3F69004CCF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CB200321BAD3F69004CCF3C;
+			remoteInfo = "SQLite&MySQL";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CB200331BAD3F69004CCF3C /* SQLite&MySQL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SQLite&MySQL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB200371BAD3F69004CCF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB200381BAD3F69004CCF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3CB2003A1BAD3F69004CCF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "SQLite&MySQL/AppDelegate.h"; sourceTree = "<group>"; };
+		3CB2003B1BAD3F69004CCF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "SQLite&MySQL/AppDelegate.m"; sourceTree = "<group>"; };
+		3CB200461BAD3F69004CCF3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "SQLite&MySQL/Images.xcassets"; sourceTree = "<group>"; };
+		3CB200491BAD3F69004CCF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3CB2004F1BAD3F69004CCF3C /* SQLite&MySQLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SQLite&MySQLTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CB200541BAD3F69004CCF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CB200551BAD3F69004CCF3C /* SQLite_MySQLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLite_MySQLTests.m; sourceTree = "<group>"; };
+		3CB200611BAD400E004CCF3C /* UserInfoDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoDB.h; sourceTree = "<group>"; };
+		3CB200621BAD400E004CCF3C /* UserInfoDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoDB.m; sourceTree = "<group>"; };
+		3CB200641BAD400E004CCF3C /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		3CB200651BAD400E004CCF3C /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		3CB200671BAD400E004CCF3C /* BUILD_FLAG */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BUILD_FLAG; sourceTree = "<group>"; };
+		3CB200691BAD400E004CCF3C /* MysqlCommitException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlCommitException.h; sourceTree = "<group>"; };
+		3CB2006A1BAD400E004CCF3C /* MysqlCommitException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlCommitException.m; sourceTree = "<group>"; };
+		3CB2006B1BAD400E004CCF3C /* MysqlException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlException.h; sourceTree = "<group>"; };
+		3CB2006C1BAD400E004CCF3C /* MysqlException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlException.m; sourceTree = "<group>"; };
+		3CB2006D1BAD400E004CCF3C /* MysqlRollbackException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlRollbackException.h; sourceTree = "<group>"; };
+		3CB2006E1BAD400E004CCF3C /* MysqlRollbackException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlRollbackException.m; sourceTree = "<group>"; };
+		3CB2006F1BAD400E004CCF3C /* GC_MYSQL_BIND.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GC_MYSQL_BIND.h; sourceTree = "<group>"; };
+		3CB200701BAD400E004CCF3C /* MysqlConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlConnection.h; sourceTree = "<group>"; };
+		3CB200711BAD400E004CCF3C /* MysqlConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlConnection.m; sourceTree = "<group>"; };
+		3CB200721BAD400E004CCF3C /* MysqlConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlConnector.h; sourceTree = "<group>"; };
+		3CB200731BAD400E004CCF3C /* MysqlDelete.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlDelete.h; sourceTree = "<group>"; };
+		3CB200741BAD400E004CCF3C /* MysqlDelete.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlDelete.m; sourceTree = "<group>"; };
+		3CB200751BAD400E004CCF3C /* MysqlFetch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlFetch.h; sourceTree = "<group>"; };
+		3CB200761BAD400E004CCF3C /* MysqlFetch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlFetch.m; sourceTree = "<group>"; };
+		3CB200771BAD400E004CCF3C /* MysqlFetchField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlFetchField.h; sourceTree = "<group>"; };
+		3CB200781BAD400E004CCF3C /* MysqlFetchField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlFetchField.m; sourceTree = "<group>"; };
+		3CB200791BAD400E004CCF3C /* MysqlIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlIndex.h; sourceTree = "<group>"; };
+		3CB2007A1BAD400E004CCF3C /* MysqlIndex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlIndex.m; sourceTree = "<group>"; };
+		3CB2007B1BAD400E004CCF3C /* MysqlInsert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlInsert.h; sourceTree = "<group>"; };
+		3CB2007C1BAD400E004CCF3C /* MysqlInsert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlInsert.m; sourceTree = "<group>"; };
+		3CB2007D1BAD400E004CCF3C /* MysqlLiteral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlLiteral.h; sourceTree = "<group>"; };
+		3CB2007E1BAD400E004CCF3C /* MysqlLiteral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlLiteral.m; sourceTree = "<group>"; };
+		3CB2007F1BAD400E004CCF3C /* MysqlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlManager.h; sourceTree = "<group>"; };
+		3CB200801BAD400E004CCF3C /* MysqlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlManager.m; sourceTree = "<group>"; };
+		3CB200811BAD400E004CCF3C /* MysqlServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlServer.h; sourceTree = "<group>"; };
+		3CB200821BAD400E004CCF3C /* MysqlServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlServer.m; sourceTree = "<group>"; };
+		3CB200831BAD400E004CCF3C /* MysqlTruncate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlTruncate.h; sourceTree = "<group>"; };
+		3CB200841BAD400E004CCF3C /* MysqlTruncate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlTruncate.m; sourceTree = "<group>"; };
+		3CB200851BAD400E004CCF3C /* MysqlUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlUpdate.h; sourceTree = "<group>"; };
+		3CB200861BAD400E004CCF3C /* MysqlUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlUpdate.m; sourceTree = "<group>"; };
+		3CB200871BAD400E004CCF3C /* notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
+		3CB200881BAD400E004CCF3C /* NSString_MysqlEscape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSString_MysqlEscape.h; sourceTree = "<group>"; };
+		3CB200891BAD400E004CCF3C /* NSString_MysqlEscape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSString_MysqlEscape.m; sourceTree = "<group>"; };
+		3CB2008B1BAD400E004CCF3C /* DBAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBAccess.h; sourceTree = "<group>"; };
+		3CB2008C1BAD400E004CCF3C /* UserInfoAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoAccess.h; sourceTree = "<group>"; };
+		3CB2008D1BAD400E004CCF3C /* UserInfoAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoAccess.m; sourceTree = "<group>"; };
+		3CB2008E1BAD400E004CCF3C /* zhangyqV1.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = zhangyqV1.db; sourceTree = "<group>"; };
+		3CB200921BAD400E004CCF3C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3CB200951BAD400E004CCF3C /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3CB200961BAD400E004CCF3C /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3CB200971BAD400E004CCF3C /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3CB200981BAD400E004CCF3C /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3CB200991BAD400E004CCF3C /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3CB2009A1BAD400E004CCF3C /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3CB2009B1BAD400E004CCF3C /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3CB2009C1BAD400E004CCF3C /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3CB2009D1BAD400E004CCF3C /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3CB2009E1BAD400E004CCF3C /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3CB200A11BAD400E004CCF3C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		3CB200A21BAD400E004CCF3C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		3CB200A31BAD400E004CCF3C /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		3CB200A41BAD400E004CCF3C /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		3CB200A51BAD400E004CCF3C /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		3CB200A61BAD400E004CCF3C /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		3CB200A71BAD400E004CCF3C /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		3CB200A81BAD400E004CCF3C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		3CB200A91BAD400E004CCF3C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		3CB200AA1BAD400E004CCF3C /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		3CB200AB1BAD400E004CCF3C /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		3CB200AC1BAD400E004CCF3C /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		3CB200AD1BAD400E004CCF3C /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		3CB200AE1BAD400E004CCF3C /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		3CB200AF1BAD400E004CCF3C /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		3CB200B01BAD400E004CCF3C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		3CB200B11BAD400E004CCF3C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		3CB200B21BAD400E004CCF3C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3CB200B31BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		3CB200B41BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		3CB200B51BAD400E004CCF3C /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		3CB200B61BAD400E004CCF3C /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		3CB200B71BAD400E004CCF3C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		3CB200BB1BAD400E004CCF3C /* gcc_builtins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gcc_builtins.h; sourceTree = "<group>"; };
+		3CB200BC1BAD400E004CCF3C /* generic-msvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "generic-msvc.h"; sourceTree = "<group>"; };
+		3CB200BD1BAD400E004CCF3C /* nolock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nolock.h; sourceTree = "<group>"; };
+		3CB200BE1BAD400E004CCF3C /* rwlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rwlock.h; sourceTree = "<group>"; };
+		3CB200BF1BAD400E004CCF3C /* x86-gcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "x86-gcc.h"; sourceTree = "<group>"; };
+		3CB200C01BAD400E004CCF3C /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		3CB200C11BAD400E004CCF3C /* config-win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "config-win.h"; sourceTree = "<group>"; };
+		3CB200C21BAD400E004CCF3C /* decimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decimal.h; sourceTree = "<group>"; };
+		3CB200C31BAD400E004CCF3C /* errmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errmsg.h; sourceTree = "<group>"; };
+		3CB200C41BAD400E004CCF3C /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hash.h; sourceTree = "<group>"; };
+		3CB200C51BAD400E004CCF3C /* keycache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keycache.h; sourceTree = "<group>"; };
+		3CB200C61BAD400E004CCF3C /* lf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lf.h; sourceTree = "<group>"; };
+		3CB200C71BAD400E004CCF3C /* m_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_ctype.h; sourceTree = "<group>"; };
+		3CB200C81BAD400E004CCF3C /* m_string.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_string.h; sourceTree = "<group>"; };
+		3CB200C91BAD400E004CCF3C /* my_aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_aes.h; sourceTree = "<group>"; };
+		3CB200CA1BAD400E004CCF3C /* my_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alarm.h; sourceTree = "<group>"; };
+		3CB200CB1BAD400E004CCF3C /* my_alloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_alloc.h; sourceTree = "<group>"; };
+		3CB200CC1BAD400E004CCF3C /* my_atomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_atomic.h; sourceTree = "<group>"; };
+		3CB200CD1BAD400E004CCF3C /* my_attribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_attribute.h; sourceTree = "<group>"; };
+		3CB200CE1BAD400E004CCF3C /* my_base.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_base.h; sourceTree = "<group>"; };
+		3CB200CF1BAD400E004CCF3C /* my_bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bit.h; sourceTree = "<group>"; };
+		3CB200D01BAD400E004CCF3C /* my_bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_bitmap.h; sourceTree = "<group>"; };
+		3CB200D11BAD400E004CCF3C /* my_charsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_charsets.h; sourceTree = "<group>"; };
+		3CB200D21BAD400E004CCF3C /* my_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_config.h; sourceTree = "<group>"; };
+		3CB200D31BAD400E004CCF3C /* my_config.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_config.h.in; sourceTree = "<group>"; };
+		3CB200D41BAD400E004CCF3C /* my_dbug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dbug.h; sourceTree = "<group>"; };
+		3CB200D51BAD400E004CCF3C /* my_dir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_dir.h; sourceTree = "<group>"; };
+		3CB200D61BAD400E004CCF3C /* my_getopt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_getopt.h; sourceTree = "<group>"; };
+		3CB200D71BAD400E004CCF3C /* my_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_global.h; sourceTree = "<group>"; };
+		3CB200D81BAD400E004CCF3C /* my_libwrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_libwrap.h; sourceTree = "<group>"; };
+		3CB200D91BAD400E004CCF3C /* my_list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_list.h; sourceTree = "<group>"; };
+		3CB200DA1BAD400E004CCF3C /* my_md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_md5.h; sourceTree = "<group>"; };
+		3CB200DB1BAD400E004CCF3C /* my_net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_net.h; sourceTree = "<group>"; };
+		3CB200DC1BAD400E004CCF3C /* my_no_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_no_pthread.h; sourceTree = "<group>"; };
+		3CB200DD1BAD400E004CCF3C /* my_nosys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_nosys.h; sourceTree = "<group>"; };
+		3CB200DE1BAD400E004CCF3C /* my_pthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_pthread.h; sourceTree = "<group>"; };
+		3CB200DF1BAD400E004CCF3C /* my_stacktrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_stacktrace.h; sourceTree = "<group>"; };
+		3CB200E01BAD400E004CCF3C /* my_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_sys.h; sourceTree = "<group>"; };
+		3CB200E11BAD400E004CCF3C /* my_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_time.h; sourceTree = "<group>"; };
+		3CB200E21BAD400E004CCF3C /* my_tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_tree.h; sourceTree = "<group>"; };
+		3CB200E31BAD400E004CCF3C /* my_trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_trie.h; sourceTree = "<group>"; };
+		3CB200E41BAD400E004CCF3C /* my_uctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_uctype.h; sourceTree = "<group>"; };
+		3CB200E51BAD400E004CCF3C /* my_vle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_vle.h; sourceTree = "<group>"; };
+		3CB200E61BAD400E004CCF3C /* my_xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_xml.h; sourceTree = "<group>"; };
+		3CB200E71BAD400E004CCF3C /* myisampack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myisampack.h; sourceTree = "<group>"; };
+		3CB200E81BAD400E004CCF3C /* mysql.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql.h; sourceTree = "<group>"; };
+		3CB200E91BAD400E004CCF3C /* mysql.h.pp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = mysql.h.pp; sourceTree = "<group>"; };
+		3CB200EA1BAD400E004CCF3C /* mysql_com.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_com.h; sourceTree = "<group>"; };
+		3CB200EB1BAD400E004CCF3C /* mysql_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_time.h; sourceTree = "<group>"; };
+		3CB200EC1BAD400E004CCF3C /* mysql_version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysql_version.h; sourceTree = "<group>"; };
+		3CB200ED1BAD400E004CCF3C /* mysql_version.h.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mysql_version.h.in; sourceTree = "<group>"; };
+		3CB200EE1BAD400E004CCF3C /* mysqld_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysqld_error.h; sourceTree = "<group>"; };
+		3CB200F01BAD400E004CCF3C /* rijndael.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rijndael.h; sourceTree = "<group>"; };
+		3CB200F11BAD400E004CCF3C /* mysys_err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mysys_err.h; sourceTree = "<group>"; };
+		3CB200F21BAD400E004CCF3C /* queues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = queues.h; sourceTree = "<group>"; };
+		3CB200F31BAD400E004CCF3C /* service_versions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = service_versions.h; sourceTree = "<group>"; };
+		3CB200F41BAD400E004CCF3C /* sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha1.h; sourceTree = "<group>"; };
+		3CB200F51BAD400E004CCF3C /* sha2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha2.h; sourceTree = "<group>"; };
+		3CB200F61BAD400E004CCF3C /* sql_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sql_common.h; sourceTree = "<group>"; };
+		3CB200F71BAD400E004CCF3C /* sslopt-case.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-case.h"; sourceTree = "<group>"; };
+		3CB200F81BAD400E004CCF3C /* sslopt-longopts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-longopts.h"; sourceTree = "<group>"; };
+		3CB200F91BAD400E004CCF3C /* sslopt-vars.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sslopt-vars.h"; sourceTree = "<group>"; };
+		3CB200FA1BAD400E004CCF3C /* t_ctype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = t_ctype.h; sourceTree = "<group>"; };
+		3CB200FB1BAD400E004CCF3C /* thr_alarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_alarm.h; sourceTree = "<group>"; };
+		3CB200FC1BAD400E004CCF3C /* thr_lock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thr_lock.h; sourceTree = "<group>"; };
+		3CB200FD1BAD400E004CCF3C /* typelib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = typelib.h; sourceTree = "<group>"; };
+		3CB200FE1BAD400E004CCF3C /* violite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = violite.h; sourceTree = "<group>"; };
+		3CB200FF1BAD400E004CCF3C /* waiting_threads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waiting_threads.h; sourceTree = "<group>"; };
+		3CB201001BAD400E004CCF3C /* wqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wqueue.h; sourceTree = "<group>"; };
+		3CB201011BAD400E004CCF3C /* libmysqlclient.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmysqlclient.a; sourceTree = "<group>"; };
+		3CB201031BAD400E004CCF3C /* MysqlUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MysqlUtil.h; sourceTree = "<group>"; };
+		3CB201041BAD400E004CCF3C /* MysqlUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MysqlUtil.m; sourceTree = "<group>"; };
+		3CB201051BAD400E004CCF3C /* PreHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreHeader.h; sourceTree = "<group>"; };
+		3CB201061BAD400E004CCF3C /* SqliteUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteUtil.h; sourceTree = "<group>"; };
+		3CB201071BAD400E004CCF3C /* SqliteUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteUtil.m; sourceTree = "<group>"; };
+		3CB201091BAD400E004CCF3C /* MySQLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLViewController.h; sourceTree = "<group>"; };
+		3CB2010A1BAD400E004CCF3C /* MySQLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySQLViewController.m; sourceTree = "<group>"; };
+		3CB2010C1BAD400E004CCF3C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3CB2010D1BAD400E004CCF3C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3CB2010E1BAD400E004CCF3C /* SQLiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteViewController.h; sourceTree = "<group>"; };
+		3CB2010F1BAD400E004CCF3C /* SQLiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteViewController.m; sourceTree = "<group>"; };
+		3CB2013D1BAD4079004CCF3C /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		3CB2013F1BAD4124004CCF3C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		3CB201411BAD412F004CCF3C /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CB200301BAD3F69004CCF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB201421BAD412F004CCF3C /* libstdc++.6.0.9.dylib in Frameworks */,
+				3CB201401BAD4124004CCF3C /* libsqlite3.0.dylib in Frameworks */,
+				3CB201371BAD400E004CCF3C /* libmysqlclient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB2004C1BAD3F69004CCF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CB2002A1BAD3F69004CCF3C = {
+			isa = PBXGroup;
+			children = (
+				3CB200351BAD3F69004CCF3C /* SQLite&MySQL */,
+				3CB2003A1BAD3F69004CCF3C /* AppDelegate.h */,
+				3CB2003B1BAD3F69004CCF3C /* AppDelegate.m */,
+				3CB2013D1BAD4079004CCF3C /* PrefixHeader.pch */,
+				3CB200461BAD3F69004CCF3C /* Images.xcassets */,
+				3CB200481BAD3F69004CCF3C /* LaunchScreen.xib */,
+				3CB200361BAD3F69004CCF3C /* Supporting Files */,
+				3CB2005F1BAD400E004CCF3C /* DB */,
+				3CB2008F1BAD400E004CCF3C /* NetWork */,
+				3CB200901BAD400E004CCF3C /* Resources */,
+				3CB201021BAD400E004CCF3C /* Util */,
+				3CB201081BAD400E004CCF3C /* ViewController */,
+				3CB2013E1BAD40F1004CCF3C /* Frameworks */,
+				3CB200521BAD3F69004CCF3C /* SQLite&MySQLTests */,
+				3CB200341BAD3F69004CCF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CB200341BAD3F69004CCF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200331BAD3F69004CCF3C /* SQLite&MySQL.app */,
+				3CB2004F1BAD3F69004CCF3C /* SQLite&MySQLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CB200351BAD3F69004CCF3C /* SQLite&MySQL */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SQLite&MySQL";
+			sourceTree = "<group>";
+		};
+		3CB200361BAD3F69004CCF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200371BAD3F69004CCF3C /* Info.plist */,
+				3CB200381BAD3F69004CCF3C /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "SQLite&MySQL";
+			sourceTree = "<group>";
+		};
+		3CB200521BAD3F69004CCF3C /* SQLite&MySQLTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200551BAD3F69004CCF3C /* SQLite_MySQLTests.m */,
+				3CB200531BAD3F69004CCF3C /* Supporting Files */,
+			);
+			path = "SQLite&MySQLTests";
+			sourceTree = "<group>";
+		};
+		3CB200531BAD3F69004CCF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200541BAD3F69004CCF3C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3CB2005F1BAD400E004CCF3C /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200601BAD400E004CCF3C /* DBAcess */,
+				3CB200631BAD400E004CCF3C /* DBModel */,
+				3CB200661BAD400E004CCF3C /* MySQL */,
+				3CB2008A1BAD400E004CCF3C /* RemoteDBAccess */,
+				3CB2008E1BAD400E004CCF3C /* zhangyqV1.db */,
+			);
+			name = DB;
+			path = "SQLite&MySQL/DB";
+			sourceTree = "<group>";
+		};
+		3CB200601BAD400E004CCF3C /* DBAcess */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200611BAD400E004CCF3C /* UserInfoDB.h */,
+				3CB200621BAD400E004CCF3C /* UserInfoDB.m */,
+			);
+			path = DBAcess;
+			sourceTree = "<group>";
+		};
+		3CB200631BAD400E004CCF3C /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200641BAD400E004CCF3C /* UserInfo.h */,
+				3CB200651BAD400E004CCF3C /* UserInfo.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		3CB200661BAD400E004CCF3C /* MySQL */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200671BAD400E004CCF3C /* BUILD_FLAG */,
+				3CB200681BAD400E004CCF3C /* Exceptions */,
+				3CB2006F1BAD400E004CCF3C /* GC_MYSQL_BIND.h */,
+				3CB200701BAD400E004CCF3C /* MysqlConnection.h */,
+				3CB200711BAD400E004CCF3C /* MysqlConnection.m */,
+				3CB200721BAD400E004CCF3C /* MysqlConnector.h */,
+				3CB200731BAD400E004CCF3C /* MysqlDelete.h */,
+				3CB200741BAD400E004CCF3C /* MysqlDelete.m */,
+				3CB200751BAD400E004CCF3C /* MysqlFetch.h */,
+				3CB200761BAD400E004CCF3C /* MysqlFetch.m */,
+				3CB200771BAD400E004CCF3C /* MysqlFetchField.h */,
+				3CB200781BAD400E004CCF3C /* MysqlFetchField.m */,
+				3CB200791BAD400E004CCF3C /* MysqlIndex.h */,
+				3CB2007A1BAD400E004CCF3C /* MysqlIndex.m */,
+				3CB2007B1BAD400E004CCF3C /* MysqlInsert.h */,
+				3CB2007C1BAD400E004CCF3C /* MysqlInsert.m */,
+				3CB2007D1BAD400E004CCF3C /* MysqlLiteral.h */,
+				3CB2007E1BAD400E004CCF3C /* MysqlLiteral.m */,
+				3CB2007F1BAD400E004CCF3C /* MysqlManager.h */,
+				3CB200801BAD400E004CCF3C /* MysqlManager.m */,
+				3CB200811BAD400E004CCF3C /* MysqlServer.h */,
+				3CB200821BAD400E004CCF3C /* MysqlServer.m */,
+				3CB200831BAD400E004CCF3C /* MysqlTruncate.h */,
+				3CB200841BAD400E004CCF3C /* MysqlTruncate.m */,
+				3CB200851BAD400E004CCF3C /* MysqlUpdate.h */,
+				3CB200861BAD400E004CCF3C /* MysqlUpdate.m */,
+				3CB200871BAD400E004CCF3C /* notes.txt */,
+				3CB200881BAD400E004CCF3C /* NSString_MysqlEscape.h */,
+				3CB200891BAD400E004CCF3C /* NSString_MysqlEscape.m */,
+			);
+			path = MySQL;
+			sourceTree = "<group>";
+		};
+		3CB200681BAD400E004CCF3C /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200691BAD400E004CCF3C /* MysqlCommitException.h */,
+				3CB2006A1BAD400E004CCF3C /* MysqlCommitException.m */,
+				3CB2006B1BAD400E004CCF3C /* MysqlException.h */,
+				3CB2006C1BAD400E004CCF3C /* MysqlException.m */,
+				3CB2006D1BAD400E004CCF3C /* MysqlRollbackException.h */,
+				3CB2006E1BAD400E004CCF3C /* MysqlRollbackException.m */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		3CB2008A1BAD400E004CCF3C /* RemoteDBAccess */ = {
+			isa = PBXGroup;
+			children = (
+				3CB2008B1BAD400E004CCF3C /* DBAccess.h */,
+				3CB2008C1BAD400E004CCF3C /* UserInfoAccess.h */,
+				3CB2008D1BAD400E004CCF3C /* UserInfoAccess.m */,
+			);
+			path = RemoteDBAccess;
+			sourceTree = "<group>";
+		};
+		3CB2008F1BAD400E004CCF3C /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NetWork;
+			path = "SQLite&MySQL/NetWork";
+			sourceTree = "<group>";
+		};
+		3CB200901BAD400E004CCF3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200911BAD400E004CCF3C /* Images */,
+				3CB200931BAD400E004CCF3C /* Library */,
+			);
+			name = Resources;
+			path = "SQLite&MySQL/Resources";
+			sourceTree = "<group>";
+		};
+		3CB200911BAD400E004CCF3C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200921BAD400E004CCF3C /* Default-568h@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3CB200931BAD400E004CCF3C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200941BAD400E004CCF3C /* FMDatabase */,
+				3CB2009F1BAD400E004CCF3C /* Masonry */,
+				3CB200B81BAD400E004CCF3C /* Mysql_OC */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		3CB200941BAD400E004CCF3C /* FMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200951BAD400E004CCF3C /* FMDatabase.h */,
+				3CB200961BAD400E004CCF3C /* FMDatabase.m */,
+				3CB200971BAD400E004CCF3C /* FMDatabaseAdditions.h */,
+				3CB200981BAD400E004CCF3C /* FMDatabaseAdditions.m */,
+				3CB200991BAD400E004CCF3C /* FMDatabasePool.h */,
+				3CB2009A1BAD400E004CCF3C /* FMDatabasePool.m */,
+				3CB2009B1BAD400E004CCF3C /* FMDatabaseQueue.h */,
+				3CB2009C1BAD400E004CCF3C /* FMDatabaseQueue.m */,
+				3CB2009D1BAD400E004CCF3C /* FMResultSet.h */,
+				3CB2009E1BAD400E004CCF3C /* FMResultSet.m */,
+			);
+			path = FMDatabase;
+			sourceTree = "<group>";
+		};
+		3CB2009F1BAD400E004CCF3C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200A01BAD400E004CCF3C /* Masonry */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3CB200A01BAD400E004CCF3C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200A11BAD400E004CCF3C /* MASCompositeConstraint.h */,
+				3CB200A21BAD400E004CCF3C /* MASCompositeConstraint.m */,
+				3CB200A31BAD400E004CCF3C /* MASConstraint+Private.h */,
+				3CB200A41BAD400E004CCF3C /* MASConstraint.h */,
+				3CB200A51BAD400E004CCF3C /* MASConstraint.m */,
+				3CB200A61BAD400E004CCF3C /* MASConstraintMaker.h */,
+				3CB200A71BAD400E004CCF3C /* MASConstraintMaker.m */,
+				3CB200A81BAD400E004CCF3C /* MASLayoutConstraint.h */,
+				3CB200A91BAD400E004CCF3C /* MASLayoutConstraint.m */,
+				3CB200AA1BAD400E004CCF3C /* Masonry.h */,
+				3CB200AB1BAD400E004CCF3C /* MASUtilities.h */,
+				3CB200AC1BAD400E004CCF3C /* MASViewAttribute.h */,
+				3CB200AD1BAD400E004CCF3C /* MASViewAttribute.m */,
+				3CB200AE1BAD400E004CCF3C /* MASViewConstraint.h */,
+				3CB200AF1BAD400E004CCF3C /* MASViewConstraint.m */,
+				3CB200B01BAD400E004CCF3C /* NSArray+MASAdditions.h */,
+				3CB200B11BAD400E004CCF3C /* NSArray+MASAdditions.m */,
+				3CB200B21BAD400E004CCF3C /* NSArray+MASShorthandAdditions.h */,
+				3CB200B31BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				3CB200B41BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				3CB200B51BAD400E004CCF3C /* View+MASAdditions.h */,
+				3CB200B61BAD400E004CCF3C /* View+MASAdditions.m */,
+				3CB200B71BAD400E004CCF3C /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		3CB200B81BAD400E004CCF3C /* Mysql_OC */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200B91BAD400E004CCF3C /* include */,
+				3CB201011BAD400E004CCF3C /* libmysqlclient.a */,
+			);
+			path = Mysql_OC;
+			sourceTree = "<group>";
+		};
+		3CB200B91BAD400E004CCF3C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200BA1BAD400E004CCF3C /* atomic */,
+				3CB200C01BAD400E004CCF3C /* base64.h */,
+				3CB200C11BAD400E004CCF3C /* config-win.h */,
+				3CB200C21BAD400E004CCF3C /* decimal.h */,
+				3CB200C31BAD400E004CCF3C /* errmsg.h */,
+				3CB200C41BAD400E004CCF3C /* hash.h */,
+				3CB200C51BAD400E004CCF3C /* keycache.h */,
+				3CB200C61BAD400E004CCF3C /* lf.h */,
+				3CB200C71BAD400E004CCF3C /* m_ctype.h */,
+				3CB200C81BAD400E004CCF3C /* m_string.h */,
+				3CB200C91BAD400E004CCF3C /* my_aes.h */,
+				3CB200CA1BAD400E004CCF3C /* my_alarm.h */,
+				3CB200CB1BAD400E004CCF3C /* my_alloc.h */,
+				3CB200CC1BAD400E004CCF3C /* my_atomic.h */,
+				3CB200CD1BAD400E004CCF3C /* my_attribute.h */,
+				3CB200CE1BAD400E004CCF3C /* my_base.h */,
+				3CB200CF1BAD400E004CCF3C /* my_bit.h */,
+				3CB200D01BAD400E004CCF3C /* my_bitmap.h */,
+				3CB200D11BAD400E004CCF3C /* my_charsets.h */,
+				3CB200D21BAD400E004CCF3C /* my_config.h */,
+				3CB200D31BAD400E004CCF3C /* my_config.h.in */,
+				3CB200D41BAD400E004CCF3C /* my_dbug.h */,
+				3CB200D51BAD400E004CCF3C /* my_dir.h */,
+				3CB200D61BAD400E004CCF3C /* my_getopt.h */,
+				3CB200D71BAD400E004CCF3C /* my_global.h */,
+				3CB200D81BAD400E004CCF3C /* my_libwrap.h */,
+				3CB200D91BAD400E004CCF3C /* my_list.h */,
+				3CB200DA1BAD400E004CCF3C /* my_md5.h */,
+				3CB200DB1BAD400E004CCF3C /* my_net.h */,
+				3CB200DC1BAD400E004CCF3C /* my_no_pthread.h */,
+				3CB200DD1BAD400E004CCF3C /* my_nosys.h */,
+				3CB200DE1BAD400E004CCF3C /* my_pthread.h */,
+				3CB200DF1BAD400E004CCF3C /* my_stacktrace.h */,
+				3CB200E01BAD400E004CCF3C /* my_sys.h */,
+				3CB200E11BAD400E004CCF3C /* my_time.h */,
+				3CB200E21BAD400E004CCF3C /* my_tree.h */,
+				3CB200E31BAD400E004CCF3C /* my_trie.h */,
+				3CB200E41BAD400E004CCF3C /* my_uctype.h */,
+				3CB200E51BAD400E004CCF3C /* my_vle.h */,
+				3CB200E61BAD400E004CCF3C /* my_xml.h */,
+				3CB200E71BAD400E004CCF3C /* myisampack.h */,
+				3CB200E81BAD400E004CCF3C /* mysql.h */,
+				3CB200E91BAD400E004CCF3C /* mysql.h.pp */,
+				3CB200EA1BAD400E004CCF3C /* mysql_com.h */,
+				3CB200EB1BAD400E004CCF3C /* mysql_time.h */,
+				3CB200EC1BAD400E004CCF3C /* mysql_version.h */,
+				3CB200ED1BAD400E004CCF3C /* mysql_version.h.in */,
+				3CB200EE1BAD400E004CCF3C /* mysqld_error.h */,
+				3CB200EF1BAD400E004CCF3C /* mysys */,
+				3CB200F11BAD400E004CCF3C /* mysys_err.h */,
+				3CB200F21BAD400E004CCF3C /* queues.h */,
+				3CB200F31BAD400E004CCF3C /* service_versions.h */,
+				3CB200F41BAD400E004CCF3C /* sha1.h */,
+				3CB200F51BAD400E004CCF3C /* sha2.h */,
+				3CB200F61BAD400E004CCF3C /* sql_common.h */,
+				3CB200F71BAD400E004CCF3C /* sslopt-case.h */,
+				3CB200F81BAD400E004CCF3C /* sslopt-longopts.h */,
+				3CB200F91BAD400E004CCF3C /* sslopt-vars.h */,
+				3CB200FA1BAD400E004CCF3C /* t_ctype.h */,
+				3CB200FB1BAD400E004CCF3C /* thr_alarm.h */,
+				3CB200FC1BAD400E004CCF3C /* thr_lock.h */,
+				3CB200FD1BAD400E004CCF3C /* typelib.h */,
+				3CB200FE1BAD400E004CCF3C /* violite.h */,
+				3CB200FF1BAD400E004CCF3C /* waiting_threads.h */,
+				3CB201001BAD400E004CCF3C /* wqueue.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		3CB200BA1BAD400E004CCF3C /* atomic */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200BB1BAD400E004CCF3C /* gcc_builtins.h */,
+				3CB200BC1BAD400E004CCF3C /* generic-msvc.h */,
+				3CB200BD1BAD400E004CCF3C /* nolock.h */,
+				3CB200BE1BAD400E004CCF3C /* rwlock.h */,
+				3CB200BF1BAD400E004CCF3C /* x86-gcc.h */,
+			);
+			path = atomic;
+			sourceTree = "<group>";
+		};
+		3CB200EF1BAD400E004CCF3C /* mysys */ = {
+			isa = PBXGroup;
+			children = (
+				3CB200F01BAD400E004CCF3C /* rijndael.h */,
+			);
+			path = mysys;
+			sourceTree = "<group>";
+		};
+		3CB201021BAD400E004CCF3C /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				3CB201031BAD400E004CCF3C /* MysqlUtil.h */,
+				3CB201041BAD400E004CCF3C /* MysqlUtil.m */,
+				3CB201051BAD400E004CCF3C /* PreHeader.h */,
+				3CB201061BAD400E004CCF3C /* SqliteUtil.h */,
+				3CB201071BAD400E004CCF3C /* SqliteUtil.m */,
+			);
+			name = Util;
+			path = "SQLite&MySQL/Util";
+			sourceTree = "<group>";
+		};
+		3CB201081BAD400E004CCF3C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3CB201091BAD400E004CCF3C /* MySQLViewController.h */,
+				3CB2010A1BAD400E004CCF3C /* MySQLViewController.m */,
+				3CB2010B1BAD400E004CCF3C /* RootVC */,
+				3CB2010E1BAD400E004CCF3C /* SQLiteViewController.h */,
+				3CB2010F1BAD400E004CCF3C /* SQLiteViewController.m */,
+			);
+			name = ViewController;
+			path = "SQLite&MySQL/ViewController";
+			sourceTree = "<group>";
+		};
+		3CB2010B1BAD400E004CCF3C /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				3CB2010C1BAD400E004CCF3C /* RootViewController.h */,
+				3CB2010D1BAD400E004CCF3C /* RootViewController.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		3CB2013E1BAD40F1004CCF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CB201411BAD412F004CCF3C /* libstdc++.6.0.9.dylib */,
+				3CB2013F1BAD4124004CCF3C /* libsqlite3.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CB200321BAD3F69004CCF3C /* SQLite&MySQL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB200591BAD3F69004CCF3C /* Build configuration list for PBXNativeTarget "SQLite&MySQL" */;
+			buildPhases = (
+				3CB2002F1BAD3F69004CCF3C /* Sources */,
+				3CB200301BAD3F69004CCF3C /* Frameworks */,
+				3CB200311BAD3F69004CCF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SQLite&MySQL";
+			productName = "SQLite&MySQL";
+			productReference = 3CB200331BAD3F69004CCF3C /* SQLite&MySQL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CB2004E1BAD3F69004CCF3C /* SQLite&MySQLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CB2005C1BAD3F69004CCF3C /* Build configuration list for PBXNativeTarget "SQLite&MySQLTests" */;
+			buildPhases = (
+				3CB2004B1BAD3F69004CCF3C /* Sources */,
+				3CB2004C1BAD3F69004CCF3C /* Frameworks */,
+				3CB2004D1BAD3F69004CCF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CB200511BAD3F69004CCF3C /* PBXTargetDependency */,
+			);
+			name = "SQLite&MySQLTests";
+			productName = "SQLite&MySQLTests";
+			productReference = 3CB2004F1BAD3F69004CCF3C /* SQLite&MySQLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CB2002B1BAD3F69004CCF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZYQ;
+				TargetAttributes = {
+					3CB200321BAD3F69004CCF3C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3CB2004E1BAD3F69004CCF3C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3CB200321BAD3F69004CCF3C;
+					};
+				};
+			};
+			buildConfigurationList = 3CB2002E1BAD3F69004CCF3C /* Build configuration list for PBXProject "SQLite&MySQL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CB2002A1BAD3F69004CCF3C;
+			productRefGroup = 3CB200341BAD3F69004CCF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CB200321BAD3F69004CCF3C /* SQLite&MySQL */,
+				3CB2004E1BAD3F69004CCF3C /* SQLite&MySQLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CB200311BAD3F69004CCF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB201361BAD400E004CCF3C /* mysql_version.h.in in Resources */,
+				3CB201211BAD400E004CCF3C /* notes.txt in Resources */,
+				3CB2004A1BAD3F69004CCF3C /* LaunchScreen.xib in Resources */,
+				3CB201121BAD400E004CCF3C /* BUILD_FLAG in Resources */,
+				3CB200471BAD3F69004CCF3C /* Images.xcassets in Resources */,
+				3CB201241BAD400E004CCF3C /* zhangyqV1.db in Resources */,
+				3CB201251BAD400E004CCF3C /* Default-568h@2x.png in Resources */,
+				3CB201341BAD400E004CCF3C /* my_config.h.in in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB2004D1BAD3F69004CCF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CB2002F1BAD3F69004CCF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB2011D1BAD400E004CCF3C /* MysqlManager.m in Sources */,
+				3CB201191BAD400E004CCF3C /* MysqlFetchField.m in Sources */,
+				3CB201391BAD400E004CCF3C /* SqliteUtil.m in Sources */,
+				3CB2011F1BAD400E004CCF3C /* MysqlTruncate.m in Sources */,
+				3CB201281BAD400E004CCF3C /* FMDatabasePool.m in Sources */,
+				3CB2012B1BAD400E004CCF3C /* MASCompositeConstraint.m in Sources */,
+				3CB2012F1BAD400E004CCF3C /* MASViewAttribute.m in Sources */,
+				3CB201261BAD400E004CCF3C /* FMDatabase.m in Sources */,
+				3CB201111BAD400E004CCF3C /* UserInfo.m in Sources */,
+				3CB2011C1BAD400E004CCF3C /* MysqlLiteral.m in Sources */,
+				3CB201171BAD400E004CCF3C /* MysqlDelete.m in Sources */,
+				3CB201271BAD400E004CCF3C /* FMDatabaseAdditions.m in Sources */,
+				3CB201321BAD400E004CCF3C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				3CB2011E1BAD400E004CCF3C /* MysqlServer.m in Sources */,
+				3CB2012E1BAD400E004CCF3C /* MASLayoutConstraint.m in Sources */,
+				3CB201201BAD400E004CCF3C /* MysqlUpdate.m in Sources */,
+				3CB201101BAD400E004CCF3C /* UserInfoDB.m in Sources */,
+				3CB201181BAD400E004CCF3C /* MysqlFetch.m in Sources */,
+				3CB201161BAD400E004CCF3C /* MysqlConnection.m in Sources */,
+				3CB201351BAD400E004CCF3C /* mysql.h.pp in Sources */,
+				3CB201141BAD400E004CCF3C /* MysqlException.m in Sources */,
+				3CB201231BAD400E004CCF3C /* UserInfoAccess.m in Sources */,
+				3CB2011B1BAD400E004CCF3C /* MysqlInsert.m in Sources */,
+				3CB2013B1BAD400E004CCF3C /* RootViewController.m in Sources */,
+				3CB201291BAD400E004CCF3C /* FMDatabaseQueue.m in Sources */,
+				3CB201331BAD400E004CCF3C /* View+MASAdditions.m in Sources */,
+				3CB2013C1BAD400E004CCF3C /* SQLiteViewController.m in Sources */,
+				3CB2013A1BAD400E004CCF3C /* MySQLViewController.m in Sources */,
+				3CB201131BAD400E004CCF3C /* MysqlCommitException.m in Sources */,
+				3CB2012C1BAD400E004CCF3C /* MASConstraint.m in Sources */,
+				3CB201381BAD400E004CCF3C /* MysqlUtil.m in Sources */,
+				3CB2012D1BAD400E004CCF3C /* MASConstraintMaker.m in Sources */,
+				3CB2012A1BAD400E004CCF3C /* FMResultSet.m in Sources */,
+				3CB2003C1BAD3F69004CCF3C /* AppDelegate.m in Sources */,
+				3CB201301BAD400E004CCF3C /* MASViewConstraint.m in Sources */,
+				3CB2011A1BAD400E004CCF3C /* MysqlIndex.m in Sources */,
+				3CB201311BAD400E004CCF3C /* NSArray+MASAdditions.m in Sources */,
+				3CB201151BAD400E004CCF3C /* MysqlRollbackException.m in Sources */,
+				3CB201221BAD400E004CCF3C /* NSString_MysqlEscape.m in Sources */,
+				3CB200391BAD3F69004CCF3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CB2004B1BAD3F69004CCF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB200561BAD3F69004CCF3C /* SQLite_MySQLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CB200511BAD3F69004CCF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CB200321BAD3F69004CCF3C /* SQLite&MySQL */;
+			targetProxy = 3CB200501BAD3F69004CCF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CB200481BAD3F69004CCF3C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CB200491BAD3F69004CCF3C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = "SQLite&MySQL";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CB200571BAD3F69004CCF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CB200581BAD3F69004CCF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CB2005A1BAD3F69004CCF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "SQLite&MySQL/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLite&MySQL/Resources/Library/Mysql_OC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3CB2005B1BAD3F69004CCF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PrefixHeader.pch;
+				INFOPLIST_FILE = "SQLite&MySQL/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SQLite&MySQL/Resources/Library/Mysql_OC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3CB2005D1BAD3F69004CCF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQLite&MySQLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite&MySQL.app/SQLite&MySQL";
+			};
+			name = Debug;
+		};
+		3CB2005E1BAD3F69004CCF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SQLite&MySQLTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SQLite&MySQL.app/SQLite&MySQL";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CB2002E1BAD3F69004CCF3C /* Build configuration list for PBXProject "SQLite&MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB200571BAD3F69004CCF3C /* Debug */,
+				3CB200581BAD3F69004CCF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CB200591BAD3F69004CCF3C /* Build configuration list for PBXNativeTarget "SQLite&MySQL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB2005A1BAD3F69004CCF3C /* Debug */,
+				3CB2005B1BAD3F69004CCF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3CB2005C1BAD3F69004CCF3C /* Build configuration list for PBXNativeTarget "SQLite&MySQLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CB2005D1BAD3F69004CCF3C /* Debug */,
+				3CB2005E1BAD3F69004CCF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CB2002B1BAD3F69004CCF3C /* Project object */;
+}
